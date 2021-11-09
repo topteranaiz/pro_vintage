@@ -18,6 +18,7 @@
 // });
 
 Route::get('/', 'FrontendController@index')->name('front.main');
+// dd()
 Route::get('/detail/{id}', 'FrontendController@detail')->name('front.detail');
 Route::get('/define', 'FrontendController@getDefine')->name('front.define');
 Route::get('/shirt-label', 'FrontendController@getShirtLabel')->name('front.shirt.label');
